@@ -9,8 +9,7 @@
 %% 
 close all; clear all; clc;
 
-a = 9.8;                                
-y = 1:1000                              
-t = sqrt(2*y/a);                      
+x = 1:pi/100:4*pi;
+y = sin(x);                     
 
-plot(y,t);
+plot(x,y);

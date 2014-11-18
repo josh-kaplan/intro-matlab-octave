@@ -32,10 +32,6 @@ plot(x, y2, 'r+', 'LineWidth', 2)
 % using options 'g^' (green triangles)
 plot(x, y3, 'g^', 'LineWidth', 2)
 
-% Add title and axis labels
-title('Morse Signal Analysis')
-xlabel('x')
-ylabel('y')
 
 % Add a legend
 legend({'y1', 'y2', 'y3'},'Location', 'NorthWest')

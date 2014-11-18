@@ -4,10 +4,8 @@ close all; clear all; clc;
 
 x = input('Enter a number: ');
 
-if x == 2
-  fprintf('#1\n')
-end
-
-if x < 10
-  fprintf('#2\n')
+if x = 2
+  fprintf('Something\n')
+else
+  fprintf('Something else\n')
 end

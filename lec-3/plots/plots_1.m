@@ -18,7 +18,7 @@ y2 = sin(x);
 % start the figure and plot x v.s y1
 % with a line width of 3
 figure
-plot(x, y1, 'LineWidth', 3)
+plot(x, y1, 'LineWidth', 1)
 
 % tell MATLAB/Octave to continue the next plot in current figure
 hold on

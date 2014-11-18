@@ -9,11 +9,13 @@
 close all; clear all; clc;
 
 % Define values for x and y
-x  = 0: .1 : 2*pi;
+x  = 0:.1:2*pi;
 y = 2*x - 4;
 
 % plot the data
-plot(x, y, 'LineWidth', 2)
+plot(x, y, 'go', 'LineWidth', 2)
+
+grid on
 
 % Add title and axis labels
 title('This is my plot title')
